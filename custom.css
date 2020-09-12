@@ -1,0 +1,19 @@
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.jumbotron {
+    background-color:transparent !important; 
+}
+
+.navbar {
+    min-height: 150px;
+}
+
+.footer {
+    min-height: 100px;
+    color: rgba(0, 0, 0, 0.9);
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(247, 248, 249);
+}
+
