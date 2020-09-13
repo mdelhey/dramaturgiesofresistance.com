@@ -1,3 +1,7 @@
+h1 {
+    padding-top: 30px;
+}
+
 body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
@@ -15,5 +19,9 @@ body {
     color: rgba(0, 0, 0, 0.9);
     border-color: rgba(0, 0, 0, 0.1);
     background-color: rgb(247, 248, 249);
+}
+
+.content-row {
+    min-height: 500px;
 }
 
