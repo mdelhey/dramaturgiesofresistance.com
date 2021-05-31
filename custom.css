@@ -6,6 +6,18 @@ body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+.pfp {
+    object-fit: cover;
+    border: 0.9px;
+    border-style: solid;
+    border-color: gray;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
 .jumbotron {
     background-color:transparent !important; 
 }
@@ -25,3 +37,21 @@ body {
     min-height: 500px;
 }
 
+.navbar-toggler {
+    width: 80;
+    margin: auto;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        text-align: center;
+    }
+
+    .logo {
+        margin: auto;
+        align: center;
+        display: block;
+        text-align: center;
+        padding-left: 100px;;
+    }
+}
