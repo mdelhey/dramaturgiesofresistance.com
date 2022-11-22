@@ -42,6 +42,10 @@ body {
     margin: auto;
 }
 
+.navbar-brand {
+        text-align: right;
+    }
+
 @media (max-width: 576px) {
     .navbar-brand {
         text-align: center;
@@ -55,3 +59,4 @@ body {
         padding-left: 100px;;
     }
 }
+
