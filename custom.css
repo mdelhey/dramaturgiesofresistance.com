@@ -60,3 +60,7 @@ body {
     }
 }
 
+.event-title {
+    color: rgb(33, 37, 41);
+    text-decoration-color: rgb(33, 37, 41);
+}
